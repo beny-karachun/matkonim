@@ -1,0 +1,13 @@
+{
+  "name": "matkonim",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node scripts/test.mjs",
+    "preview": "node scripts/build.mjs && node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
